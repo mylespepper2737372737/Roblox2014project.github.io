@@ -1,0 +1,105 @@
+#zenbox_tab {
+  border: solid 1px;
+  cursor:pointer;
+  position: fixed;
+  top: 23%;
+  z-index: 10000;
+}
+  /* IE won't read ID-and-class selectors like #zenbox_tab.left, so we use just a class: */
+  .ZenboxTabLeft {
+    left: 0;
+    background-position: right 0;
+  }
+  .ZenboxTabRight {
+    right: 0;
+    background-position: left 0;
+  }
+  #zenbox_tab:hover {
+    background-color: #444;
+  }
+  #zenbox_tab img {
+    display: block;
+  }
+
+#zenbox_overlay {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 90000;
+}
+
+  #zenbox_overlay * {
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-variant:normal;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+#zenbox_container {
+  height: 620px;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+  width: 638px;
+  z-index:2;
+}
+
+  #zenbox_container .zenbox_header {
+    position: relative;
+    text-align: right;
+    width: auto;
+    z-index: 100;
+  }
+
+#zenbox_close {
+  cursor: pointer;
+  height: 46px;
+  position: relative;
+  top: 10px;
+  width: 46px;
+}
+
+#zenbox_body {
+  height: 900px;
+  margin-top: -18px;
+  position: relative;
+  width: 615px;
+}
+
+#zenbox_scrim {
+  background-color: #000;
+  filter:alpha(opacity=42);
+  -moz-opacity: 0.42;
+  left:0;
+  position: absolute; opacity: 0.42;
+  top:0;
+  width: 100%;
+  z-index:1;
+}
+
+/*
+     FILE ARCHIVED ON 19:17:18 May 02, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:09:53 Jun 30, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 5.938
+  exclusion.robots: 0.271
+  captures_list: 2283.639
+  exclusion.robots.policy: 0.258
+  load_resource: 1603.436
+  LoadShardBlock: 469.733 (4)
+  esindex: 0.013
+  PetaboxLoader3.datanode: 533.562 (6)
+  PetaboxLoader3.resolve: 1261.154 (2)
+  CDXLines.iter: 95.789 (4)
+*/
